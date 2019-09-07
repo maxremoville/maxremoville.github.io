@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="The next era of virtual reality haptic experiences">
+<meta name="keywords" content="VR, virtual reality, haptics, VR controllers, VR creators">
+<meta name="author" content="Synesthesia Labs">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- SITE TITLE -->
+<title>Synesthesia Labs</title>
+
+<!-- =========================
+      FAV AND TOUCH ICONS
+============================== -->
+<!--<link rel="icon" href="images/favicon.ico">-->
+<!--<link rel="apple-touch-icon" href="images/apple-touch-icon.png">-->
+<!--<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">-->
+<!--<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+
+<!-- =========================
+     STYLESHEETS
+============================== -->
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- FONT ICONS -->
+<link rel="stylesheet" href="assets/elegant-icons/style.css">
+<link rel="stylesheet" href="assets/app-icons/styles.css">
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+
+<!-- WEB FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap' rel='stylesheet' type='text/css'>
+
+
+<!-- CAROUSEL AND LIGHTBOX -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+    <!--DEVICE MOCKUPS-->
+	<link rel="stylesheet" href="css/device-mockups2.css">
+<!-- ANIMATIONS -->
+<link rel="stylesheet" href="css/animate.min.css">
+
+<!-- CUSTOM STYLESHEETS -->
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- COLORS -->
+<link rel="stylesheet" href="css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="css/colors/red.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/green.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/slate.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
+
+<!-- RESPONSIVE FIXES -->
+<link rel="stylesheet" href="css/responsive.css">
+
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<!-- JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+
+<!-- =========================
+     HEADER   
+============================== -->
+<header class="header" id="home">
+
+<!-- COLOR OVER IMAGE -->
+<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+
+	<!-- STICKY NAVIGATION -->
+	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+		<div class="container">
+			<div class="navbar-header">
+
+				<!-- LOGO ON STICKY NAV BAR -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kane-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="#"><img src="images/logo-syn-labs.png" alt="" width="160"></a>
+
+			</div>
+
+			<!-- NAVIGATION LINKS -->
+			<div class="navbar-collapse collapse" id="kane-navigation">
+				<ul class="nav navbar-nav navbar-right main-navigation">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#motionpole">Motion Pole</a></li>
+					<li><a href="#navigatorwatch">Biometric Watch</a></li>
+					<li><a href="#whyus">Our Advantages</a></li>
+				</ul>
+			</div>
+		</div> <!-- /END CONTAINER -->
+	</div> <!-- /END STICKY NAVIGATION -->
+
+
+	<!-- CONTAINER -->
+	<div class="container">
+
+		<!-- ONLY LOGO ON HEADER -->
+		<div class="only-logo">
+			<div class="navbar">
+				<div class="navbar-header">
+					<img src="images/syn-logo-white-logo.png" alt="" width="300">
+				</div>
+			</div>
+		</div> <!-- /END ONLY LOGO ON HEADER -->
+
+		<div class="row home-contents">
+			<div class="col-md-6 col-sm-6">
+
+				<!-- HEADING AND BUTTONS -->
+				<div class="intro-section">
+
+					<!-- WELCOM MESSAGE -->
+					<h1 class="intro">Embrace more than sight.</h1>
+				</div>
+				<!-- /END HEADNING AND BUTTONS -->
+
+			</div>
+
+
+			<div class="col-md-6 col-sm-6 hidden-xs">
+
+			    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
+			    <div class="phone-image">
+			    <img src="images/syn-labs-pole-sensor.jpg" class="img-responsive" alt="" style="width: 250px">
+			    </div>
+
+			</div>
+
+		</div>
+		<!-- /END ROW -->
+
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+</header>
+<!-- /END HEADER -->
+
+<!-- =========================
+     FEATURES - motionpole 
+============================== -->
+<section class="features" id="motionpole">
+
+<div class="container">
+
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">How Haptics Should Feel</h2>
+		<div class="colored-line">
+		</div>
+		<div class="section-description">
+			Magic Pole: Features you can appreciate.
+		</div>
+		<div class="colored-line">
+		</div>
+	</div>
+	<!-- /END SECTION HEADER -->
+
+
+	<div class="row">
+
+		<!-- FEATURES LEFT -->
+		<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_compass_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Discover Virtual Environments</h4>
+					<p>
+						 Actually be able to walk rather than blink in the virtual world.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="arrow_move"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Goodbye Motion Sickness</h4>
+					<p>
+						 Resolve the visual-vestibular conflict by moving naturally in VR.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_tablet"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Cross-Platform Sync</h4>
+					<p>
+						 Seamlessly connect to whatever headset or VR platform you prefer.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+		</div>
+		<!-- /END FEATURES LEFT -->
+
+		<!-- PHONE IMAGE -->
+		<div class="col-md-4 col-sm-4">
+			<div class="pole-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+
+
+                            <img src="images/motion pole.png" alt="">
+
+			</div>
+		</div>
+
+		<!-- FEATURES RIGHT -->
+		<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_genius"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Dynamic Adaptability</h4>
+					<p>
+						 Act as a motion gesture controller when placed in stationary position.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_lightbulb_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Intelligent User Experience</h4>
+					<p>
+						Act as a motion gesture controller when placed in stationary position.
+					</p>
+				</div>
+
+			</div>
+
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_adjust-vert"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Adjustable Lengths</h4>
+					<p>
+						 One product, several variations. Adjustable in length and other gameplay uses.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+		</div>
+		<!-- /END FEATURES RIGHT -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
+
+<section class="app-brief grey-bg" id='brief0'>
+		<div class="container">
+			<div class="row">
+					<img src='images/motion pole text.png' style="max-width:100%; max-height:100%" alt="magic motion dynamic pole">
+			</div>
+		</div>
+	</section>
+
+
+<!-- =========================
+     BRIEF LEFT SECTION 
+============================== -->
+<section class="app-brief" id="brief1">
+
+<div class="container">
+
+	<div class="row">
+
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+				<img src="images/blue shirt guy pole.png" style="max-width:100%; max-height:100%" alt="">
+		</div>
+
+		<!-- RIGHT SIDE WITH BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Never have trouble exploring again</h2>
+
+			<div class="colored-line-left">
+			</div>
+
+			<p>
+					Imbued with the latest research into motion, the Dynamic Pole provides the dual function 
+					as a walking guide stick that transplants natural movement patterns into 
+					navigating in the virtual world and as a motion gesture controller when stationary. 
+					Crafted from high quality titanium, the Pole adapts to users of any height and 
+					is designed to be the optimal companion for any user who wants to walk, hike and interact 
+					with the virtual reality environment.
+			</p>
+
+			<!-- FEATURE LIST
+			<ul class="feature-list">
+				<li><i class="icon_check_alt2"></i> Every thing is great</li>
+				<li><i class="icon_paperclip"></i> Advocate greatness Synesthesia Labs</li>
+				<li><i class="icon_adjust-vert"></i> Synesthesia Labs is the best</li>
+			</ul> -->
+
+		</div>
+		<!-- /END RIGHT BRIEF -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+
+
+<section class="app-brief" id='brief1.1'>
+		<div class="container">
+			<div class="row">
+					<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<p>The top wheel rotates to change hand position, lift hands up and down. 
+							The hand movement can tell the brain the body is going uphill or downhill.
+						</p>
+					</div>
+					<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+						<img src='images/up down pole.gif' style="max-width:100%; max-height:100%" alt="magic motion dynamic pole">
+					</div>
+			</div>
+		</div>
+	</section>
+
+
+<section class="app-brief" id='brief1.2'>
+			<div class="container">
+				<div class="row">
+						<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<img src='images/pole moving up down show.gif' style="max-width:100%; max-height:100%" alt="magic motion dynamic pole">
+						</div>
+						<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+								<p>The bottom wheel rotates to lead the stick moving backwards. The hand movement
+									can tell the brain is moving forward.
+								</p>
+							</div>
+				</div>
+			</div>
+		</section>
+
+
+<!-- =========================
+     BRIEF RIGHT SECTION 
+============================== -->
+
+
+<section class="app-brief grey-bg" id='navigatorwatch'>
+	<div class="container">
+			<h2 class="dark-text">'Symbiotic' Navigator Watch.</h2>
+			<div class="colored-line">
+				</div>
+				<div class="section-description">
+					An anti-motion sickness biometric braclet for VR environments.
+				</div>
+				<div class="colored-line">
+				</div>
+	</div>
+</section>
+
+<section class="app-brief grey-bg" id='brief2.1'>
+		<div class="container">
+			<div class="row">
+					<img src='images/vr watch list.png' style="max-width:100%; max-height:100%" alt="magic motion dynamic pole">
+			</div>
+		</div>
+	</section>
+
+<section class="app-brief" id="brief2">
+
+<div class="container">
+
+	<div class="row">
+
+		<!-- BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Biometric data to generate virtual environments</h2>
+
+			<div class="colored-line-left">
+			</div>
+
+			<p>
+				A watch that can be used in both the virtual and the physical world, the Symbiotic provides real-time feedback for the user. 
+				With the ability to tighten on pressure points, the watch is able to reduce a user’s perception of motion sickness and be a 
+				steady state object that can also be interacted within the virtual world. Along with tracking heart rate and electro dermal 
+				activity, the Symbiotic is able to transmit data which can procedurally generate and enhance the user’s 3D virtual environment.
+			</p>
+
+		</div>
+		<!-- /ENDBRIEF -->
+
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+				<img src="images/Bracelet2 - bend.119.png" style="max-width:50%; max-height:50%" alt="">
+		</div>
+		<!-- /END PHONES IMAGE -->
+
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+
+<!-- =========================
+     BRIEF LEFT SECTION WITH VIDEO 
+============================== -->
+
+
+<!-- /END TESTIMONIALS SECTION -->
+
+
+<!-- =========================
+     SERVICES
+============================== -->
+<section class="services grey-bg" id="whyus">
+
+<div class="container">
+
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">VR Controllers Tailored To You</h2>
+
+		<div class="colored-line">
+		</div>
+		<div class="section-description">
+			The uniquely custom VR controllers that content creators and developers have been dreaming for.
+		</div>
+		<div class="colored-line">
+		</div>
+
+	</div>
+	<!-- /END SECTION HEADER -->
+
+	<div class="row">
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_cloud-upload_alt"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>Synced Performance</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 Seamlessly connects to existing platforms.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_globe-2"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>Interconnectivity</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 Connect and work with other hardware.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_chat_alt"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>Open source</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 Chat with us for help. Chat with others. Develop and customise to your needs.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
+
+
+
+<!-- =========================
+     DOWNLOAD NOW 
+============================== -->
+<section class="download" id="download">
+
+<div class="color-overlaey">
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<!-- DOWNLOAD BUTTONS AREA -->
+				<!-- END OF DOWNLOAD BUTTONS AREA -->
+
+
+				<!-- SUBSCRIPTION FORM WITH TITLE -->
+				<div class="subscription-form-container">
+
+					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Register Your Interest Now!</h2>
+
+					<!-- =====================
+					     MAILCHIMP FORM STARTS
+					     ===================== -->
+
+					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+
+						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+						<h4 class="subscription-success"></h4>
+						<h4 class="subscription-error"></h4>
+
+						<!-- EMAIL INPUT BOX -->
+						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+
+						<!-- SUBSCRIBE BUTTON -->
+						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
+
+					</form>
+					<!-- /END MAILCHIMP FORM STARTS -->
+
+					<!-- =====================
+					     LOCAL TXT FORM STARTS
+					     ===================== -->
+
+					<!-- THIS FORM IS COMMENTED TO HIDE
+
+					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
+
+						<h4 class="subscription-success"><i class="icon_check"></i> Thank you! We will notify you soon.</h4>
+						<h4 class="subscription-error">Something Wrong!</h4>
+
+						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+
+						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
+
+					</form>
+
+					-->
+
+					<!-- / LOCAL TXT SAVING FORM END -->
+
+				</div>
+                <!-- END OF SUBSCRIPTION FORM WITH TITLE -->
+
+			</div>
+			<!-- END COLUMN -->
+
+		</div>
+		<!-- END ROW -->
+
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+
+</section>
+<!-- /END DOWNLOAD SECTION -->
+
+
+<!-- =========================
+     FOOTER 
+============================== -->
+<footer>
+
+<div class="container">
+
+	<div class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+		<!-- CONTACT BUTTON TO EXPAND OR COLLAPSE FORM -->
+
+
+		<!-- EXPANDED CONTACT FORM -->
+		<div class="row expanded-contact-form">
+
+			<div class="col-md-8 col-md-offset-2">
+
+				<!-- FORM -->
+				<form class="contact-form" id="contact" role="form">
+
+					<!-- IF MAIL SENT SUCCESSFULLY -->
+					<h4 class="success">
+						<i class="icon_check"></i> Your message has been sent successfully.
+					</h4>
+
+					<!-- IF MAIL SENDING UNSUCCESSFULL -->
+					<h4 class="error">
+						<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.
+					</h4>
+
+					<div class="col-md-6">
+						<input class="form-control input-box" id="name" type="text" name="name" placeholder="Your Name">
+					</div>
+
+					<div class="col-md-6">
+						<input class="form-control input-box" id="email" type="email" name="email" placeholder="Your Email">
+					</div>
+
+					<div class="col-md-12">
+						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Subject">
+						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message"></textarea>
+					</div>
+
+					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Send Message</button>
+
+				</form>
+				<!-- /END FORM -->
+
+			</div>
+
+		</div>
+		<!-- /END EXPANDED CONTACT FORM -->
+
+	</div>
+	<!-- /END CONTACT BOX -->
+
+	<!-- LOGO -->
+	<img src="images/logo-syn-labs.png" alt="LOGO" class="responsive-img" width="200">
+
+	<!-- SOCIAL ICONS -->
+	<!--<ul class="social-icons">
+		<li><a href=""><i class="social_facebook_square"></i></a></li>
+		<li><a href=""><i class="social_twitter_square"></i></a></li>
+		<li><a href=""><i class="social_pinterest_square"></i></a></li>
+		<li><a href=""><i class="social_googleplus_square"></i></a></li>
+		<li><a href=""><i class="social_instagram_square"></i></a></li>
+		<li><a href=""><i class="social_dribbble_square"></i></a></li>
+		<li><a href=""><i class="social_flickr_square"></i></a></li>
+	</ul>-->
+
+	<!-- COPYRIGHT TEXT -->
+	<p class="copyright">
+		©2019 Synesthesia Labs, All Rights Reserved
+	</p>
+
+</div>
+<!-- /END CONTAINER -->
+
+</footer>
+<!-- /END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/simple-expand.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/matchMedia.js"></script>
+<script src="js/jquery.backgroundvideo.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
